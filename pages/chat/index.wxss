@@ -1,0 +1,20 @@
+/* pages/chat/index.wxss */
+.body{
+    font-family: STXingkai;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    /* display:flex; */
+    flex-direction:column; /*纵向显示*/
+    align-items:center;/*垂直居中*/
+    justify-content: center;/*水平居中*/
+    background: #f2f2f8;
+    /* background-image: url("http://xcx.powerall.top/public/images/timg.jpg");  */
+}
+.centent{
+    height: 93%;
+}
+.nav{
+    height: 7%;
+    background: #edece8;
+}

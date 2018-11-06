@@ -1,0 +1,12 @@
+<view class='body'>
+    <view class='centent'></view>
+    <view class='nav'> 
+        <view class='nav-left'>
+            <input placeholder="这是一个可以自动聚焦的input" auto-focus></input>
+        </view>
+        <view class='nav-right'>
+            <image></image>
+        </view>
+        
+    </view>
+</view>

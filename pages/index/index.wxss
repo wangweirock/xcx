@@ -1,0 +1,60 @@
+/* pages/index/index.wxss */
+.body{
+    font-family: STXingkai;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    /* display:flex; */
+    flex-direction:column; /*纵向显示*/
+    align-items:center;/*垂直居中*/
+    justify-content: center;/*水平居中*/
+    background: #f2f2f8;
+    background-image: url("http://xcx.powerall.top/public/images/timg.jpg"); 
+}
+.ul {
+    z-index: 10;
+    margin: 30rpx;
+    text-align: center;
+    padding: 15rpx;
+    color: #333333;
+    /* border: 1rpx solid #f2f2f8; */
+    background: linear-gradient(to top right, #f8c7c3, #f2d9f7,#f5dbf8);
+    box-shadow:0 0 1px #f8c7c3 inset;
+    font-size: 30rpx;
+    
+}
+.shade{
+    position: fixed;
+    top: 0rpx;
+    background: #000;
+    opacity: .5;
+    width: 750rpx;
+    height: 100%;
+    z-index: 100;
+}
+.more{
+    z-index: 101;
+    position: fixed;
+    top: 30%;
+    left: 20%;
+    width: 450rpx;
+    height: 300rpx;
+    background: #e8e9e9;
+    border-radius: 10rpx;
+    font-family: STXingkai;
+    display:flex;
+    flex-direction:column; /*纵向显示*/
+    align-items:center;/*垂直居中*/
+    justify-content: center;/*水平居中*/
+    box-shadow:2rpx 2rpx 5rpx #939393 inset;
+}
+.more text{
+    margin-left:50rpx;
+}
+.close{
+    width:30rpx;
+    height:30rpx;
+    position:fixed;
+    right:21%;
+    top:31%;
+}

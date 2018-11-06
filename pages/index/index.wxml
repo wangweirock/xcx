@@ -1,0 +1,20 @@
+<view class='body'>
+    <view class='ul' bindtap='chat'>
+        逗逗聊天室
+    </view>
+    <view class='ul' bindtap='photo'>
+        记忆映像
+    </view>
+    <view class='ul' bindtap='more'>
+        更多精彩
+    </view>
+</view>
+
+<!-- 遮罩层 -->
+<view class='shade' wx:if="{{is_shade}}" bindtap='close'></view>
+
+<!-- 更多精彩模态框 -->
+<view class="more" wx:if="{{is_more}}"> 
+    <image class='close' bindtap='close' src='http://xcx.powerall.top/public/images/xx.png'></image>
+    <text>{{text}}</text>
+</view>
